@@ -1,0 +1,17 @@
+{
+    "apps": [
+      {
+        "name": "merrln",
+        "script": "api/app.js",
+        "env": {
+          "PORT": "9001",
+          "NODE_ENV": "development"
+        },
+        "exec_mode": "cluster",
+        "instances": 2,
+        "max_memory_restart": "2G",
+        "log_date_format": "YYYY-MM-DD HH:mm"
+      }
+    ]
+  }
+  
