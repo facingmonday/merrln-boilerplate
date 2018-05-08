@@ -12,6 +12,8 @@ npm install
 
 You'll need to add a user to sign in.
 
+Snippets start with mer_
+
 ## Start Server
 ```
 npm run start
