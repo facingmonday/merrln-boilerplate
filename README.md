@@ -4,9 +4,8 @@ Merrln Boilerplate
 ##Getting started
 
 ```
-git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo
-git clone git://repo.org/fossproject.git && rm -rf merrln-boilerplate/.git
-rm -rf !$/.git
+git clone --depth=1 --branch=master https://github.com/facingmonday/merrln-boilerplate.git
+rm -rf ./merrln-boilerplate/.git
 cd merrln-boilerplate
 npm install
 ```
